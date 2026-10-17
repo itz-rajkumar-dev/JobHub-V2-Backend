@@ -1,0 +1,38 @@
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven build output
+**/target/
+
+# Frontend dependencies and build output
+**/node_modules/
+**/dist/
+**/.vite/
+
+# IDE and operating system
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local temporary files
+config-files-list.txt
+
+# Local secrets and backups
+*.bak
+*.backup
+JobHubV2-config-backup/
+
+# Local config secrets
+*.env
+.env
+
+
+# Local properties backups
+*.local-backup
